@@ -1,0 +1,32 @@
+program main {
+
+    int x;
+    int s;
+    bool y;
+
+    function somar(int a, int b) {
+        int resultado;
+        resultado = a + b;
+        return resultado;
+    }
+
+    procedure exibe(int price) {
+        print(price);
+    }
+
+    x = 1 + 2 / 3 * 2;
+    y = true;
+    s = somar(x, 1);
+
+    if (y == false) {
+        print(x);
+    } else {
+        print(s);
+    }
+
+    while (y != true) {
+        print(y);
+        break;
+    }
+
+}
